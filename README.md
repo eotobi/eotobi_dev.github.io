@@ -27,41 +27,38 @@ Install the following prerequisites:
 ### Backend
 
 #### 1. Create a virtual environment
-
-From the **root** directory run:
-
-```bash
-cd backend
-```
-```bash
-python -m venv venv
-```
-
+##### From the **root** directory run:
+  ```bash
+  cd backend
+  ```
+  ```bash
+  python -m venv venv
+  ```
 #### 2. Activate the virtual environment
 
 From the **backend** directory run:
-On Windows:
-```bash
-On linux:
-```bash
-source venv/bin/activate
+- On Windows:
+  ```bash
+  venv/Scripts/avtivate
+  ```
+- On linux:
+  ```bash
+  source venv/bin/activate
+  ```
 
 
 #### 3. Run the django backend
-
-python3 manage.py runserver
-
+ ```bash python3 manage.py runserver```
 ### Frontend
-
-```bash
-cd fronend
-```
-```bash
-npm install
-```
-```bash
-npm start
-```
+  ```bash
+  cd fronend
+  ```
+  ```bash
+  npm install
+  ```
+  ```bash
+  npm start
+  ```
 
 
 
