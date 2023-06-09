@@ -17,7 +17,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
   
   const fetchProjects = () => {
-    axios.get("http://modest-vigorous-edison.cidemo.co/projects", {
+    axios.get("https://modest-vigorous-edison.cidemo.co/projects", {
       headers: {
         "Accept": "application/json",
       }
