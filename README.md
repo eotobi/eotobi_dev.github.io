@@ -42,7 +42,9 @@ From the **backend** directory run:
   venv/Scripts/avtivate
   ```
 - On linux:
-  ```bash source venv/bin/activate```
+  ```bash
+  source venv/bin/activate
+  ```
   
 #### 3. Run the django backend
  ```bash python3 manage.py runserver```
