@@ -20,6 +20,10 @@ import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 library.add(faLaptopCode);
 
+
+//My icons
+// import { ReactComponent as MyLogo } from '../assets/logo/mylogo.ico';
+
 import CustomButton from "../components/CustomButton";
 
 const Header = ({ onSidebarOpen }) => {
@@ -53,6 +57,17 @@ const Header = ({ onSidebarOpen }) => {
           </IconButton>
           <Link href="/" style={{ textDecoration: "none" }}>
             <IconButton size="large" disabled>
+
+            {/* <img
+              src={process.env.PUBLIC_URL + '/mylogo.ico'}
+              alt="My Logo"
+              style={{
+                color: theme.palette.primary.main,
+                height: 90,
+                width: 90
+              }}
+            /> */}
+            
               <FontAwesomeIcon 
                 icon={faLaptopCode} 
                 style={{ 
@@ -61,6 +76,16 @@ const Header = ({ onSidebarOpen }) => {
                   width: 45
                 }} 
               />
+
+              
+              {/* <MyLogo
+                style={{
+                  color: theme.palette.primary.main,
+                  height: 250,
+                  width: 250
+                }}
+              /> */}
+
               <Typography 
                 variant="h3" 
                 component="div" 
@@ -75,6 +100,7 @@ const Header = ({ onSidebarOpen }) => {
               >
                 Eotobi Dev
               </Typography>
+
             </IconButton>
           </Link>
           <Box sx={{ flexGrow: 1 }} />
