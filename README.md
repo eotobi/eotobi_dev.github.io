@@ -39,7 +39,7 @@ Install the following prerequisites:
 From the **backend** directory run:
 - On Windows:
   ```bash
-  venv/Scripts/avtivate
+  venv/Scripts/activate
   ```
 - On linux:
   ```bash
