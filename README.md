@@ -40,8 +40,10 @@ python -m venv venv
 #### 2. Activate the virtual environment
 
 From the **backend** directory run:
-
+On Windows:
+```bash
 On linux:
+```bash
 source venv/bin/activate
 
 
