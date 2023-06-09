@@ -1,5 +1,5 @@
 # eotobi_dev.github.io
-My portfolio site. Get to know everything about me as a full stack developer. 
+Get to know everything about me as a full stack developer. 
 
 This web application built using **Django 4**, **Django REST Framework 3**, **React 18**, and **Material UI 5**.
 
@@ -42,16 +42,14 @@ From the **backend** directory run:
   venv/Scripts/avtivate
   ```
 - On linux:
-  ```bash
-  source venv/bin/activate
-  ```
-
-
+  ```bash source venv/bin/activate```
+  
 #### 3. Run the django backend
  ```bash python3 manage.py runserver```
+ 
 ### Frontend
   ```bash
-  cd fronend
+  cd frontend
   ```
   ```bash
   npm install
