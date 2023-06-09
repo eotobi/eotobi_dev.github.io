@@ -134,7 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
   'http://localhost:3000'
-  'https://modest-vigorous-edison.cidemo.co'
+  'https://eotobi.onwebapp.io'
 ]
 
 
